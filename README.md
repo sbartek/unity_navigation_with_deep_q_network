@@ -4,9 +4,9 @@
 
 # Project 1: Navigation
 
-### Introduction
+## Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+For this project, we will train an agent to navigate (and collect bananas!) in a large, square world.  
 
 ![Trained Agent][image1]
 
@@ -20,9 +20,13 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
+## Play the game by yourself
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+You can play the game executing the notebook: `Navigation-Human.ipynb`.
+
+## Random agent playing the game
+
+1. The respository contains __Mac OSX__ version of Banana Game. If you need other environments select the one that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -32,14 +36,17 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the repository, and unzip it. You also need to install [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md).
 
-### Instructions
+3. Run the notebook `Navigation-Random-Agent.ipynb`. 
 
+## Train the agent
 
-We begin by importing some necessary packages.  If the code cell below returns an error, please revisit the project instructions to double-check that you have installed [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) and [NumPy](http://www.numpy.org/).
+In order to train the model run `Navigation-Training.ipynb`. The model is located in `model.py` and the agent in `dqn_agent.py`.
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+## Watch trained agant
+
+By running `Navigation-Trained-Agent.ipynb` you can watch how trained agent is playing.
 
 ### (Optional) Challenge: Learning from Pixels
 
