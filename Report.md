@@ -38,6 +38,12 @@ In this trainig we get average score above 16.
 
 ![Alt text](https://raw.githubusercontent.com/sbartek/unity_navigation_with_deep_q_network/master/navigation16.png?raw=true "Optional Title")
 
+
+## Checkpoints
+
+`checkpoint_fast_decay_13.pth`: fast decay with average 13
+`checkpoint_fast_decay_13_2.pth`: slow decay with average 16
+
 ## Further improvement
 
 We would like to try 
